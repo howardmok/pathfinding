@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Howard Mok. All rights reserved.
 //
 
-#ifndef __Project_1__deque__
-#define __Project_1__deque__
+#ifndef DEQUE_H
+#define DEQUE_H
 
 #include <deque>
 #include <string>
@@ -39,4 +39,4 @@ void word_output(std::vector<many_words> dictionary, std::vector<std::string> pa
 void modification_output(std::vector<many_words> dictionary, std::vector<std::string> path);
 //Modification output mode
 
-#endif /* defined(__Project_1__deque__) */
+#endif
